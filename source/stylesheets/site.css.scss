@@ -1,12 +1,12 @@
 body {
-  // background-color: #fbc547;
+  background-color: #dee1e2;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
   text-align: center;
+  margin: 0;
 }
 
 a {
@@ -16,4 +16,104 @@ a {
   &:hover {
     color: rgba(#000, 0.6);
   }
+}
+
+.align-left {
+  text-align: left;
+}
+
+button {
+  padding: 8px 60px;
+  background-color: transparent;
+  border: 2px solid #262526;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Avenir Next;
+  letter-spacing: .5px;
+  margin-top: 2em;
+}
+
+.fifty-fifty {
+  padding: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background: linear-gradient(to right, #fff9fd 50%, #f7d2c8 50%);
+}
+
+h1 {
+  font-family: Avenir Next;
+  font-size: 4em;
+}
+
+h2 {
+  font-family: Avenir Next;
+  font-size: 2em;
+}
+
+.hero-section {
+  height: 60vh;
+  background-color: #f9e8f2;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.hero-header {
+  margin: 0 auto;
+}
+
+p {
+  font-family: "Lucida Grande";
+  font-size: 1em;
+  line-height: 1.6em;
+}
+
+.section2 {
+  background-color: #fff9fd;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.section3 {
+  background-color: #f9e8f2;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.text-container {
+  margin: 0 auto;
+  width: 630px;
+}
+
+.text-container-small {
+  margin: 0 auto;
+  width: 325px;
+}
+
+.col-one {
+  display: block;
+  width: 630px;
+}
+
+.col-one > h2 {
+  // margin-block-end: 2em;
+}
+
+.col-two {
+  // display: block;
+  display: flex;
+  flex-direction: row;
+  width: 630px;
+}
+
+.col-two > p {
+  margin: auto 20px;
+}
+
+.wrapper-waist {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
