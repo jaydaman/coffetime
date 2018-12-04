@@ -1,0 +1,33 @@
+#footer-header {
+  @media #{$mobile} {
+    text-align: left;
+  }
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @media #{$mobile} {
+    flex-direction: column;
+  }
+}
+
+.footer-link-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  @media #{$mobile} {
+    flex-direction: column;
+  }
+}
+
+.footer-link-wrapper > div {
+  margin-left: 100px;
+
+  @media #{$mobile} {
+    margin-left: 0px;
+  }
+}

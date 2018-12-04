@@ -1,0 +1,56 @@
+.fifty-fifty {
+  padding: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background: linear-gradient(to right, $secondary-bg-color 50%, $accent-bg-color 50%);
+  // background-color: $secondary-bg-color;
+
+  @media #{$mobile} {
+    display: block;
+    float: left;
+    background: $secondary-bg-color;
+    padding-bottom: 0;
+    padding: 0px 0px;
+  }
+}
+
+.fifty-fifty-headers{
+  width: 600px;
+  margin: 0 auto;
+
+
+  @media #{$mobile} {
+    float: left;
+    width: 100%;
+    background: $secondary-bg-color;
+    padding: 100px 0px;
+  }
+}
+
+.fifty-fifty-headers > h2 {
+  text-align: center;
+}
+
+.fifty-fifty-text {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 600px;
+
+  @media #{$mobile} {
+    background: $accent-bg-color;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 80px 0px;
+  }
+}
+
+.fifty-fifty-text > p {
+  margin: auto 20px;
+
+  @media #{$mobile} {
+    margin: 40px 20px;
+  }
+}

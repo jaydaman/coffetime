@@ -1,0 +1,12 @@
+.grid-v {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 800px;
+  margin-left: 4px;
+  width: 100%;
+  border: 1px solid;
+}
+
+.grid-v-brick {
+  margin: 0 8px 8px 0;
+}
