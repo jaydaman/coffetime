@@ -1,0 +1,12 @@
+.hero-section {
+  height: 60vh;
+  background-color: $primary-bg-color;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media #{$mobile} {
+    height: 100vh;
+  }
+}
